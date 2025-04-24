@@ -24,12 +24,14 @@ This script will:
 - Train the RBMIRM model using training data
 - Test it on unseen data
 - Save output and target values to 4 Excel files for both training and testing
+  
 2. **Generate Datewise (Growthstage wise) Loss/Error Files**
    ```bash
    python3 datewise_boxplot.py
 Generates training and testing loss/error files.
-3.**Plot MAE Boxplots**
-   ```bash
+
+3. **Plot MAE Boxplots**
+    ```bash
    python3 d.py
 Displays boxplots and mean absolute errors (MAE) for all 11 predicted nutrients.
 
